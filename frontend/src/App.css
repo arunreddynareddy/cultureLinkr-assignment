@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+}
+
+.main-heading {
+    color: black;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.form-label {
+    color: darkslategray;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    color: darkslategray;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 5px;
+    outline: none;
+    width: 100%;
+}
+
+.form-input::placeholder {
+    color: darkkhaki;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.form-button {
+    align-self: center;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: blueviolet;
+    transition-duration: 1s;
+}
+
+.success-message {
+    color: brown;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
